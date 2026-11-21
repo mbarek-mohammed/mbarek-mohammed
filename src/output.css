@@ -17,6 +17,7 @@
     --color-gray-200: oklch(92.8% 0.006 264.531);
     --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-600: oklch(44.6% 0.03 256.802);
+    --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-gray-900: oklch(21% 0.034 264.665);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -227,6 +228,15 @@
   .-me-0\.5 {
     margin-inline-end: calc(var(--spacing) * -0.5);
   }
+  .mt-0 {
+    margin-top: 0px;
+  }
+  .mt-0\.5 {
+    margin-top: calc(var(--spacing) * 0.5);
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -235,6 +245,18 @@
   }
   .mt-auto {
     margin-top: auto;
+  }
+  .mr-0 {
+    margin-right: 0px;
+  }
+  .mr-0\.5 {
+    margin-right: calc(var(--spacing) * 0.5);
+  }
+  .mr-1 {
+    margin-right: var(--spacing);
+  }
+  .mr-5 {
+    margin-right: calc(var(--spacing) * 5);
   }
   .mb-1 {
     margin-bottom: var(--spacing);
@@ -401,6 +423,9 @@
   .items-center {
     align-items: center;
   }
+  .items-start {
+    align-items: flex-start;
+  }
   .gap-0 {
     gap: 0px;
   }
@@ -499,6 +524,9 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .object-contain {
+    object-fit: contain;
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -570,6 +598,9 @@
   }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
@@ -667,6 +698,9 @@
   .text-blue-600 {
     color: var(--color-blue-600);
   }
+  .text-blue-700 {
+    color: var(--color-blue-700);
+  }
   .text-current {
     color: currentcolor;
   }
@@ -675,6 +709,9 @@
   }
   .text-gray-600 {
     color: var(--color-gray-600);
+  }
+  .text-gray-800 {
+    color: var(--color-gray-800);
   }
   .text-gray-900 {
     color: var(--color-gray-900);
@@ -721,8 +758,17 @@
     .sm\:px-6 {
       padding-inline: calc(var(--spacing) * 6);
     }
+    .sm\:px-10 {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+    .sm\:px-20 {
+      padding-inline: calc(var(--spacing) * 20);
+    }
     .sm\:px-37 {
       padding-inline: calc(var(--spacing) * 37);
+    }
+    .sm\:px-40 {
+      padding-inline: calc(var(--spacing) * 40);
     }
     .sm\:text-3xl {
       font-size: var(--text-3xl);
@@ -763,6 +809,12 @@
     }
   }
   @media (width >= 64rem) {
+    .lg\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .lg\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
     .lg\:gap-8 {
       gap: calc(var(--spacing) * 8);
     }
@@ -793,6 +845,15 @@
   @media (width >= 80rem) {
     .xl\:grid-cols-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .xl\:px-8 {
+      padding-inline: calc(var(--spacing) * 8);
+    }
+    .xl\:px-10 {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+    .xl\:px-14 {
+      padding-inline: calc(var(--spacing) * 14);
     }
     .xl\:px-24 {
       padding-inline: calc(var(--spacing) * 24);
