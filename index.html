@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css"
+      integrity="sha384-Bk5cbLkZQ5raZ0+H2/+VbfYx3WpvxvQK4zqXZr7sYODuaX7bKXoSOnipQxkaS8sv"
+      crossorigin="anonymous" />
     <link href="./src/output.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
   </head>
@@ -14,67 +19,80 @@
       <section id="ferdawss"></section>
 
       <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-  <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">
-    Plans for every stage
-  </h2>
+        <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">Plans for every stage</h2>
 
-  <!-- Grid Layout: 1 column on mobile, 3 columns on tablet and desktop -->
-  <div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
-    
-    <!-- Free -->
-    <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
-      <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Free</h3>
-      <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-        Sell in person, online, over the phone, or out in the field. No setup fees or monthly fees - only pay when you take a payment.
-      </p>
-      <div class="mt-auto">
-        <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-          $0<span class="text-2xl md:text-3xl">/mo.</span>
-        </p>
-        <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-        <button class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700">
-          Get started free
-        </button>
-      </div>
-    </div>
+        <!-- Grid Layout: 1 column on mobile, 3 columns on tablet and desktop -->
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
+          <!-- Free -->
+          <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
+            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Free</h3>
+            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
+              Sell in person, online, over the phone, or out in the field. No setup fees or monthly fees - only pay when
+              you take a payment.
+            </p>
+            <div class="mt-auto">
+              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
+                $0<span class="text-2xl md:text-3xl">/mo.</span>
+              </p>
+              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+              <button
+                class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700">
+                Get started free
+              </button>
+            </div>
+          </div>
 
-    <!-- Plus -->
-    <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
-      <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Plus</h3>
-      <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-        Get advanced features designed specifically for restaurants, retailers, or appointment-based businesses. Upgrade when you want to, cancel anytime.
-      </p>
-      <div class="mt-auto">
-        <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-          $29+<span class="text-2xl md:text-3xl">/mo.</span>
-        </p>
-        <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-        <button class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700">
-          See packages below
-        </button>
-      </div>
-    </div>
+          <!-- Plus -->
+          <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
+            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Plus</h3>
+            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
+              Get advanced features designed specifically for restaurants, retailers, or appointment-based businesses.
+              Upgrade when you want to, cancel anytime.
+            </p>
+            <div class="mt-auto">
+              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
+                $29+<span class="text-2xl md:text-3xl">/mo.</span>
+              </p>
+              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+              <button
+                class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700">
+                See packages below
+              </button>
+            </div>
+          </div>
 
-    <!-- Premium -->
-    <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
-      <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Premium</h3>
-      <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-        Build a bespoke plan that meets the complexity of your operations. Custom processing rates may be available pending eligibility.
-      </p>
-      <div class="mt-auto">
-        <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-          Custom
-        </p>
-        <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-        <button class="w-full rounded-lg border border-[#006aff] bg-white py-3 text-sm font-medium text-[#006aff] transition-colors hover:bg-blue-50">
-          Contact Sales
-        </button>
-      </div>
-    </div>
-
-  </div>
-</section>
-      <section id="taha"></section>
+          <!-- Premium -->
+          <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
+            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Premium</h3>
+            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
+              Build a bespoke plan that meets the complexity of your operations. Custom processing rates may be
+              available pending eligibility.
+            </p>
+            <div class="mt-auto">
+              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">Custom</p>
+              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+              <button
+                class="w-full rounded-lg border border-[#006aff] bg-white py-3 text-sm font-medium text-[#006aff] transition-colors hover:bg-blue-50">
+                Contact Sales
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">Included with every Square account:</h2>
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+          <p><i class="bi bi-check2"></i>Transfers as soon as the next business day</p>
+          <p><i class="bi bi-check2"></i>Account takeover protection</p>
+          <p><i class="bi bi-check2"></i>Fast online signup</p>
+          <p><i class="bi bi-check2"></i>End-to-end encrypted payments</p>
+          <p><i class="bi bi-check2"></i>Live phone support</p>
+          <p><i class="bi bi-check2"></i>Free Square Point of Sale app</p>
+          <p><i class="bi bi-check2"></i>Active fraud prevention</p>
+          <p><i class="bi bi-check2"></i>-Dispute management</p>
+          
+        </div>
+      </section>
       <section id="taha"></section>
       <section id="taha"></section>
       <section id="taha"></section>
