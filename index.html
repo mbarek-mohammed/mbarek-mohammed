@@ -5,30 +5,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css"
+        integrity="sha384-Bk5cbLkZQ5raZ0+H2/+VbfYx3WpvxvQK4zqXZr7sYODuaX7bKXoSOnipQxkaS8sv" crossorigin="anonymous" />
     <link href="./src/output.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header id="ferdawss"></header>
+    <header id="ferdawss" class="flex justify-between">
+
+
+        <div>
+            <a href="#">Business types</a>
+            <a href="#">Products</a>
+            <a href="#">Hardware</a>
+            <a href="#">Pricing</a>
+        </div>
+
+        <div>
+            <div><a href="#"></a>Sign in</div>
+            <div><a href="#"></a>Support</div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg></div>
+        </div>
+        </div>
+
+    </header>
 
     <main>
         <section id="ferdawss"></section>
 
         <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-            <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">
-                Plans for every stage
-            </h2>
+            <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">Plans for every stage</h2>
 
-            <!-- Grid Layout: 1 column on mobile, 3 columns on tablet and desktop -->
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
-
-                <!-- Free -->
                 <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
                     <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Free</h3>
                     <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
                         Sell in person, online, over the phone, or out in the field. No setup fees or monthly fees -
-                        only pay when you take a payment.
+                        only pay when
+                        you take a payment.
                     </p>
                     <div class="mt-auto">
                         <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
@@ -42,12 +61,12 @@
                     </div>
                 </div>
 
-                <!-- Plus -->
                 <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
                     <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Plus</h3>
                     <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
                         Get advanced features designed specifically for restaurants, retailers, or appointment-based
-                        businesses. Upgrade when you want to, cancel anytime.
+                        businesses.
+                        Upgrade when you want to, cancel anytime.
                     </p>
                     <div class="mt-auto">
                         <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
@@ -61,34 +80,46 @@
                     </div>
                 </div>
 
-                <!-- Premium -->
-                <div class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8">
-                    <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">Premium</h3>
-                    <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-                        Build a bespoke plan that meets the complexity of your operations. Custom processing rates may
-                        be available pending eligibility.
-                    </p>
-                    <div class="mt-auto">
-                        <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-                            Custom
-                        </p>
-                        <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-                        <button
-                            class="w-full rounded-lg border border-[#006aff] bg-white py-3 text-sm font-medium text-[#006aff] transition-colors hover:bg-blue-50">
-                            Contact Sales
-                        </button>
-                    </div>
-                </div>
-
+            </div>
+        </section>     
+        <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+            <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">Included with every Square account:</h2>
+            <div class="grid grid-cols-1 gap-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:px-8">
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Transfers as soon as the next business day</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Account takeover protection</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Fast online signup</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>End-to-end encrypted payments</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Live phone support</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Free Square Point of Sale app</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Active fraud prevention</span>
+                </p>
+                <p class="flex items-start gap-2 text-[15px] text-gray-800">
+                    <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
+                    <span>Dispute management</span>
+                </p>
             </div>
         </section>
-        <section id="taha"></section>
-        <section id="taha"></section>
-        <section id="taha"></section>
-        <section id="taha"></section>
-        <section id="taha"></section>
-
-        <section id="mohammed" class="px-37">
+         <section id="mohammed" class="px-37">
             <h2 class="mb-3 py-5 text-3xl font-normal">Plans by business type</h2>
             <div class="flex flex-wrap gap-6">
                 <div class="bg-neutral-primary-soft block max-w-sm rounded-2xl shadow-xs">
@@ -148,43 +179,35 @@
             <h2 class="mb-3 text-3xl font-normal">Flexible hardware solutions</h2>
             <a href="#" class="text-[15px] text-[#006aff] hover:underline">Explore all hardware and accessories
                 &rarr;</a>
+
             <div class="flex flex-wrap gap-6 pt-8">
-                <div class="bg-gray-100 block max-w-sm h-full p-6  rounded-2xl shadow-xs">
-
+                <div class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs">
                     <img class="rounded-base" src="./src/images/PD06527_-_FRFR_register.webp" alt="" />
-
-                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline">Square Register &rarr;</a>
-
-                    <div class="rounded-sm text-gray-600 text-[15px]">
-                        $799 or $39/mo.<sup>3</sup> over 24 months
-                    </div>
-
+                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline mt-2 block">Square Register
+                        &rarr;</a>
+                    <div class="rounded-sm text-gray-600 text-[15px]">$799 or $39/mo.<sup>3</sup> over 24 months</div>
                 </div>
 
-                <div class="bg-gray-100 block max-w-sm h-full p-6  rounded-2xl shadow-xs">
+                <div class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs">
                     <a href="#">
-                        <img class="rounded-base w-[390px] h-[290px]" src="./src/images/Stand_dual_2026_960x960.webp" alt="" />
+                        <img class="rounded-base h-[290px] object-contain"
+                            src="./src/images/Stand_dual_2026_960x960.webp" alt="" />
                     </a>
-                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline">Square Register &rarr;</a>
-
-                    <div class="rounded-sm text-gray-600 text-[15px]">
-                        $799 or $39/mo.<sup>3</sup> over 24 months
-                    </div>
+                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline mt-2 block">Square Stand
+                        &rarr;</a>
+                    <div class="rounded-sm text-gray-600 text-[15px]">$149 or $14/mo.<sup>3</sup> over 12 months</div>
                 </div>
 
-                <div class="bg-gray-100 block max-w-sm h-full p-6  rounded-2xl shadow-xs">
+                <div class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs">
                     <a href="#">
                         <img class="rounded-base" src="./src/images/PD06527_-_FRFR_terminal.webp" alt="" />
                     </a>
-                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline">Square Register &rarr;</a>
-
-                    <div class="rounded-sm text-gray-600 text-[15px]">
-                        $799 or $39/mo.<sup>3</sup> over 24 months
-                    </div>
+                    <a href="#" class="text-xl font-bold text-[#006aff] hover:underline mt-2 block">Square Terminal
+                        &rarr;</a>
+                    <div class="rounded-sm text-gray-600 text-[15px]">$299 or $27/mo.<sup>3</sup> over 12 months</div>
                 </div>
             </div>
         </section>
-
         <section id="mohammed" class="px-37 flex justify-between">
             <h2 class="mb-3 text-3xl font-normal">FAQ</h2>
 
@@ -253,10 +276,14 @@
             </div>
 
         </section>
+        
         <section id="mohammed"></section>
         <section id="mohammed"></section>
         <section id="mohammed"></section>
         <section id="mohammed"></section>
+
+
+       
     </main>
 
     <footer id="ferdawss"></footer>
