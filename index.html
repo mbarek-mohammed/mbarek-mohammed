@@ -1,923 +1,361 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css"
-      integrity="sha384-Bk5cbLkZQ5raZ0+H2/+VbfYx3WpvxvQK4zqXZr7sYODuaX7bKXoSOnipQxkaS8sv"
-      crossorigin="anonymous"
-    />
-    <link href="./src/output.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Square — Pricing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-white text-gray-900 antialiased">
 
-  </head>
+  <header id="top" class=" bg-white">
+    <nav class="mx-auto flex max-w-7xl border-b border-gray-200 items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="#top" aria-label="Square home" class="flex shrink-0 items-center gap-2 text-2xl font-bold tracking-tight">
+        <i class="bi bi-square text-2xl"></i><span>Square</span>
+      </a>
 
-
-
-  <body>
-    <header id="ferdawss">
-      <nav class="border border-gray-200 bg-white">
-        <div class="flex-wrap flex justify-between gap-4 px-3 py-3">
-          <div class="flex gap-8">
-            <div href="#" class="flex">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                class="md:w-7 md:h-7"
-                fill="currentColor"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
-                />
-                <path
-                  d="M8 4a4 4 0 1 0 0 8A4 4 0 0 0 8 4M5.5 8a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0"
-                />
-              </svg>
-            </div>
-
-            <div class="flex flex-wrap gap-7">
-              <a
-                href="#"
-                class="font-semibold text-gray-900 hover:text-gray-600"
-                >Business types</a
-              >
-              <a
-                href="#"
-                class="font-semibold text-gray-900 hover:text-gray-600"
-                >Products</a
-              >
-              <a
-                href="#"
-                class="font-semibold text-gray-900 hover:text-gray-600"
-                >Hardware</a
-              >
-              <a
-                href="#"
-                class="font-semibold text-gray-900 hover:text-gray-600"
-                >Pricing</a
-              >
-            </div>
-          </div>
-
-          <div class="flex gap-4">
-            <a href="#" class="font-semibold text-gray-900 hover:text-gray-600"
-              >Sign in</a
-            >
-            <a href="#" class="font-semibold text-gray-900 hover:text-gray-600"
-              >Support</a
-            >
-
-            <a href="#" class="flex text-gray-900 hover:text-gray-600">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-cart"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-      </nav>
-
-      <div class="flex-wrap px-4 py-4 flex justify-between">
-        <h6 class="font-bold">Square</h6>
-        <div>
-          <button
-            class="px-5 py-2 rounded-full border border-gray-300 text-s font-medium hover:border-black transition"
-          >
-            Get started
-          </button>
-          <button
-            class="px-5 py-2 rounded-full bg-black text-white text-s font-medium hover:bg-gray-800 transition"
-          >
-            contact sales
-          </button>
-        </div>
+      <div class="hidden items-center gap-7 lg:flex">
+        <a href="#business-types" class="font-medium hover:text-gray-500">Business types</a>
+        <a href="#tools" class="font-medium hover:text-gray-500">Products</a>
+        <a href="#hardware" class="font-medium hover:text-gray-500">Hardware</a>
+        <a href="#plans" class="font-medium hover:text-gray-500">Pricing</a>
       </div>
-    </header>
 
-<main>
-  <section id="ferdawss" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div class="hidden items-center gap-5 lg:flex">
+        <a href="#" class="font-medium hover:text-gray-500">Sign in</a>
+        <a href="#" class="font-medium hover:text-gray-500">Support</a>
+        <a href="#" aria-label="Shopping cart" class="text-xl hover:text-gray-500"><i class="bi bi-cart"></i></a>
+      </div>
 
-    <div class="flex flex-col justify-between gap-8 md:flex-row md:items-start">
-      <div class="md:w-1/2">
-        <h1 class="max-w-[11ch] text-5xl tracking-tight text-gray-950">
+      <details class="relative lg:hidden">
+        <summary class="flex cursor-pointer list-none items-center gap-2 rounded-full border border-gray-300 px-4 py-2 text-sm font-semibold">
+          Menu <i class="bi bi-list text-lg"></i>
+        </summary>
+        <div class="absolute right-0 z-20 mt-3 w-56 rounded-2xl border border-gray-200 bg-white p-4 shadow-xl">
+          <div class="flex flex-col gap-4">
+            <a href="#business-types" class="font-medium">Business types</a>
+            <a href="#tools" class="font-medium">Products</a>
+            <a href="#hardware" class="font-medium">Hardware</a>
+            <a href="#plans" class="font-medium">Pricing</a>
+            <hr class="border-gray-200">
+            <a href="#" class="font-medium">Sign in</a>
+            <a href="#" class="font-medium">Support</a>
+            <a href="#" class="font-medium">Cart</a>
+          </div>
+        </div>
+      </details>
+    </nav>
+
+    <div class="mx-auto flex max-w-7xl flex-col gap-3 px-4 pb-4 pt-3 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+      <span class="text-lg font-bold">Square</span>
+      <div class="flex flex-col gap-2 min-[420px]:flex-row">
+        <a href="#plans" class="rounded-full border border-gray-300 px-5 py-2.5 text-center text-sm font-semibold transition hover:border-black">Get started</a>
+        <a href="#contact" class="rounded-full bg-black px-5 py-2.5 text-center text-sm font-semibold text-white transition hover:bg-gray-800">Contact sales</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
+      <div class="grid gap-6 md:grid-cols-2 md:items-start md:gap-12">
+        <h1 class="max-w-xl text-4xl font-medium tracking-tight text-gray-950 sm:text-5xl lg:text-6xl">
           Priced to help you grow and thrive.
         </h1>
-      </div>
-      <div class="md:w-5/12">
-        <p class="max-w-md text-lg text-gray-800 md:text-xl">
+        <p class="max-w-xl text-lg leading-relaxed text-gray-700 sm:text-xl">
           Start for free and add tools as you need them, or explore our plans to get everything you need at once.
         </p>
       </div>
+
+      <div class="mt-10 overflow-hidden rounded-2xl bg-gray-50">
+        <img class="h-auto max-h-[560px] w-full object-cover object-center" src="./src/images/Screenshot 2026-11-21 224013.png" alt="Square hardware">
+      </div>
+
+      <div class="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5">
+        <a href="#plans" class="flex items-center justify-center gap-2 rounded-full border border-gray-300 px-4 py-3 text-sm font-semibold transition hover:border-black">See plans <i class="bi bi-arrow-down"></i></a>
+        <a href="#tools" class="flex items-center justify-center gap-2 rounded-full border border-gray-300 px-4 py-3 text-sm font-semibold transition hover:border-black">Explore all tools <i class="bi bi-arrow-down"></i></a>
+        <a href="#fees" class="flex items-center justify-center gap-2 rounded-full border border-gray-300 px-4 py-3 text-sm font-semibold transition hover:border-black">Processing fees <i class="bi bi-arrow-down"></i></a>
+        <a href="#business-types" class="flex items-center justify-center gap-2 rounded-full border border-gray-300 px-4 py-3 text-sm font-semibold transition hover:border-black">By business type <i class="bi bi-arrow-down"></i></a>
+        <a href="#hardware" class="flex items-center justify-center gap-2 rounded-full border border-gray-300 px-4 py-3 text-sm font-semibold transition hover:border-black">Shop hardware <i class="bi bi-arrow-down"></i></a>
+      </div>
+    </section>
+
+    <section id="plans" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <h2 class="mb-8 text-3xl font-normal tracking-tight sm:text-4xl">Plans for every stage</h2>
+      <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <article class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 sm:p-8">
+          <h3 class="mb-3 text-2xl font-normal sm:text-3xl">Free</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Sell in person, online, over the phone, or out in the field. No setup fees or monthly fees — only pay when you take a payment.</p>
+          <div class="mt-auto">
+            <p class="mb-1 text-4xl font-normal sm:text-5xl">$0<span class="text-2xl">/mo.</span></p>
+            <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+            <a href="#" class="block rounded-lg bg-[#006aff] py-3 text-center text-sm font-semibold text-white transition hover:bg-blue-700">Get started free</a>
+          </div>
+        </article>
+
+        <article class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 sm:p-8">
+          <h3 class="mb-3 text-2xl font-normal sm:text-3xl">Plus</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Get advanced features designed specifically for restaurants, retailers, or appointment-based businesses. Upgrade when you want to, cancel anytime.</p>
+          <div class="mt-auto">
+            <p class="mb-1 text-4xl font-normal sm:text-5xl">$29+<span class="text-2xl">/mo.</span></p>
+            <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+            <a href="#tools" class="block rounded-lg bg-[#006aff] py-3 text-center text-sm font-semibold text-white transition hover:bg-blue-700">See packages below</a>
+          </div>
+        </article>
+
+        <article class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 sm:p-8 md:col-span-2 xl:col-span-1">
+          <h3 class="mb-3 text-2xl font-normal sm:text-3xl">Premium</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Build a bespoke plan that meets the complexity of your operations. Custom processing rates may be available pending eligibility.</p>
+          <div class="mt-auto">
+            <p class="mb-1 text-4xl font-normal sm:text-5xl">Custom</p>
+            <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
+            <a href="#contact" class="block rounded-lg border border-[#006aff] py-3 text-center text-sm font-semibold text-[#006aff] transition hover:bg-blue-50">Contact Sales</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <h2 class="mb-8 text-3xl font-normal tracking-tight sm:text-4xl">Included with every Square account:</h2>
+      <div class="grid gap-x-8 gap-y-5 sm:grid-cols-2 lg:grid-cols-3">
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Transfers as soon as the next business day</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Account takeover protection</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Fast online signup</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>End-to-end encrypted payments</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Live phone support</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Free Square Point of Sale app</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Active fraud prevention</p>
+        <p class="flex items-start gap-3 text-[15px] text-gray-800"><i class="bi bi-check2 mt-0.5 text-xl text-blue-700"></i>Dispute management</p>
+      </div>
+    </section>
+
+    <section id="tools" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+      <h2 class="mb-6 text-3xl font-normal tracking-tight sm:text-4xl">Tools to mix and match</h2>
+      <div class="mb-8 flex flex-wrap gap-2">
+        <span class="rounded-full bg-[#006aff] px-4 py-2 text-sm font-semibold text-white">All</span>
+        <span class="rounded-full border border-gray-200 px-4 py-2 text-sm text-gray-600">Free</span>
+        <span class="rounded-full border border-gray-200 px-4 py-2 text-sm text-gray-600">Commerce</span>
+        <span class="rounded-full border border-gray-200 px-4 py-2 text-sm text-gray-600">Customers</span>
+        <span class="rounded-full border border-gray-200 px-4 py-2 text-sm text-gray-600">Banking</span>
+        <span class="rounded-full border border-gray-200 px-4 py-2 text-sm text-gray-600">Staff</span>
+      </div>
+
+      <div class="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Square POS →</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Get set up to sell in person, online, over the phone, or out in the field — no training required.</p>
+          <p class="mt-auto text-sm font-medium text-gray-600">Starting at $0/mo.</p>
+        </article>
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Payroll →</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Track hours, pay employees faster, and automate your tax filings all in one place to streamline payroll.</p>
+          <p class="mt-auto text-sm font-medium text-gray-600">Starting at $35/mo. + $6 monthly fee per person paid</p>
+        </article>
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Online store →</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Easily sell, take bookings, and show off your services online. Plus, reach customers on Instagram and Facebook.</p>
+          <p class="mt-auto text-sm font-medium text-gray-600">Starting at $0/mo.</p>
+        </article>
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Invoices →</h3>
+          <p class="flex-1 text-[15px] leading-relaxed text-gray-600">Send digital invoices and estimates, accept payments, send reminders, and track which invoices are paid.</p>
+        </article>
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Email Marketing →</h3>
+          <p class="flex-1 text-[15px] leading-relaxed text-gray-600">Stay connected to customers with POS integrated, automated email marketing.</p>
+        </article>
+        <article class="flex flex-col rounded-2xl border border-gray-200 p-6 shadow-sm">
+          <h3 class="mb-3 text-xl font-semibold text-[#006aff]">Text Message Marketing →</h3>
+          <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">Text customers directly about sales and arrivals, and send coupons and more so you stay top of mind.</p>
+          <p class="mt-auto text-sm font-medium text-gray-600">Starting at $10/mo. + messaging</p>
+        </article>
+      </div>
+      <div class="mt-10 flex items-center gap-4">
+        <div class="h-px flex-1 bg-gray-200"></div>
+        <a href="#" class="text-sm font-semibold text-[#006aff] hover:text-blue-700"><i class="bi bi-plus"></i> Expand all tools</a>
+        <div class="h-px flex-1 bg-gray-200"></div>
+      </div>
+    </section>
+
+    <section id="fees" class="bg-[#E3F2F9] px-4 py-14 sm:px-6 lg:px-8 lg:py-16">
+      <div class="mx-auto max-w-7xl">
+        <h2 class="mb-10 text-3xl font-normal tracking-tight sm:text-4xl">Processing fees</h2>
+        <div class="grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
+          <article class="flex flex-col">
+            <h3 class="mb-3 text-lg font-semibold">In person</h3>
+            <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">When a customer taps, dips, or swipes their card in person, Visa, Mastercard, Discover, and American Express all cost the same rate.</p>
+            <p class="text-[15px] font-semibold">2.6% + 15¢ per transaction<sup>*</sup></p>
+          </article>
+          <article class="flex flex-col">
+            <h3 class="mb-3 text-lg font-semibold">Online</h3>
+            <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">When a customer makes a purchase through your Online Store or eCommerce API.</p>
+            <p class="text-[15px] font-semibold">2.9% + 30¢ per transaction</p>
+          </article>
+          <article class="flex flex-col">
+            <h3 class="mb-3 text-lg font-semibold">Manually entered</h3>
+            <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">When you manually key in your customers card details or use a card on file.</p>
+            <p class="text-[15px] font-semibold">3.5% + 15¢ per transaction</p>
+          </article>
+          <article class="flex flex-col">
+            <h3 class="mb-3 text-lg font-semibold">Invoices</h3>
+            <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">Let customers pay invoices online, in person, or from their phone with a credit card, Apple Pay, Google Pay, or ACH bank transfer.</p>
+            <p class="text-[15px] font-semibold">3.3% + 30¢ per transaction</p>
+          </article>
+        </div>
+        <a href="#" class="mt-10 inline-flex text-[15px] font-semibold text-[#006aff] hover:underline">How our rates work →</a>
+      </div>
+    </section>
+
+    <section id="business-types" class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-16">
+      <h2 class="mb-8 text-3xl font-normal tracking-tight sm:text-4xl">Plans by business type</h2>
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+          <img class="h-52 w-full object-cover" src="./src/images/PD04508_-_M_CAEN_business_type_tiles_restaurants.webp" alt="Restaurant">
+          <div class="p-6">
+            <h3 class="mb-3 text-2xl font-normal">Restaurants</h3>
+            <p class="mb-5 text-[15px] leading-relaxed text-gray-600">Run your restaurant more efficiently. Use menus and table management for front of house, and kitchen displays and delivery for back of house.</p>
+            <ul class="mb-6 list-disc space-y-2 pl-5 text-[15px] text-gray-700"><li>Advanced POS features</li><li>Square KDS</li><li>Square Kiosk</li></ul>
+            <a href="#" class="text-[15px] font-semibold text-[#006aff] hover:underline">See plans →</a>
+          </div>
+        </article>
+        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+          <img class="h-52 w-full object-cover" src="./src/images/PD04508_-_M_CAEN_business_type_tiles_retail.webp" alt="Retail business">
+          <div class="p-6">
+            <h3 class="mb-3 text-2xl font-normal">Retail</h3>
+            <p class="mb-5 text-[15px] leading-relaxed text-gray-600">All the retail tools you need for selling online and in-store, like inventory management, returns and exchanges, and reports.</p>
+            <ul class="mb-6 list-disc space-y-2 pl-5 text-[15px] text-gray-700"><li>Advanced inventory tools</li><li>Advanced retail reports</li><li>Square Team Management</li></ul>
+            <a href="#" class="text-[15px] font-semibold text-[#006aff] hover:underline">See plans →</a>
+          </div>
+        </article>
+        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm md:col-span-2 xl:col-span-1">
+          <img class="h-52 w-full object-cover" src="./src/images/PD04508_-_M_CAEN_business_type_tiles_appointments.webp" alt="Appointment-based business">
+          <div class="p-6">
+            <h3 class="mb-3 text-2xl font-normal">Appointments</h3>
+            <p class="mb-5 text-[15px] leading-relaxed text-gray-600">Stay a step ahead of schedule — whether you run a salon or a construction business — with easy online booking, automatic appointment reminders, and staff management tools.</p>
+            <ul class="mb-6 list-disc space-y-2 pl-5 text-[15px] text-gray-700"><li>Customizable online booking site</li><li>Automated appointment reminders</li><li>Square Team Management</li></ul>
+            <a href="#" class="text-[15px] font-semibold text-[#006aff] hover:underline">See plans →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="hardware" class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-16">
+      <div class="mb-8">
+        <h2 class="mb-3 text-3xl font-normal tracking-tight sm:text-4xl">Flexible hardware solutions</h2>
+        <a href="#" class="text-[15px] font-semibold text-[#006aff] hover:underline">Explore all hardware and accessories →</a>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <article class="rounded-2xl bg-gray-100 p-5 sm:p-6">
+          <a href="#"><img class="h-64 w-full object-contain" src="./src/images/PD06527_-_FRFR_register.webp" alt="Square Register"></a>
+          <a href="#" class="mt-4 block text-xl font-bold text-[#006aff] hover:underline">Square Register →</a>
+          <p class="mt-1 text-[15px] text-gray-600">$799 or $39/mo.<sup>3</sup> over 24 months</p>
+        </article>
+        <article class="rounded-2xl bg-gray-100 p-5 sm:p-6">
+          <a href="#"><img class="h-64 w-full object-contain" src="./src/images/Stand_dual_2026_960x960.webp" alt="Square Stand"></a>
+          <a href="#" class="mt-4 block text-xl font-bold text-[#006aff] hover:underline">Square Stand →</a>
+          <p class="mt-1 text-[15px] text-gray-600">$149 or $14/mo.<sup>3</sup> over 12 months</p>
+        </article>
+        <article class="rounded-2xl bg-gray-100 p-5 sm:p-6 md:col-span-2 xl:col-span-1">
+          <a href="#"><img class="h-64 w-full object-contain" src="./src/images/PD06527_-_FRFR_terminal.webp" alt="Square Terminal"></a>
+          <a href="#" class="mt-4 block text-xl font-bold text-[#006aff] hover:underline">Square Terminal →</a>
+          <p class="mt-1 text-[15px] text-gray-600">$299 or $27/mo.<sup>3</sup> over 12 months</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-4xl px-4 py-14 sm:px-6 lg:py-16">
+      <h2 class="mb-6 text-3xl font-normal tracking-tight sm:text-4xl">Frequently asked questions</h2>
+      <div class="divide-y divide-gray-200 border-y border-gray-200">
+        <details open class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">What are the school hours at Little Learners Academy?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday. We also offer extended care options for parents who need early drop-off or late pick-up.</p>
+        </details>
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">How do you handle food allergies and dietary restrictions?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">Share your child's needs at enrollment and our team will plan every meal and snack around them.</p>
+        </details>
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">Is there a uniform policy for students?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">Yes, students wear a simple school uniform. Details are shared during admission.</p>
+        </details>
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">What is the teacher-to-student ratio at Little Learners Academy?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">We keep classes small so every child gets personal attention.</p>
+        </details>
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">How do you handle discipline and behavior management?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">We use positive guidance, clear routines, and open communication with parents.</p>
+        </details>
+        <details class="group py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold">How do I apply for admission to Little Learners Academy?<i class="bi bi-plus-lg shrink-0 transition group-open:rotate-45"></i></summary>
+          <p class="mt-4 text-sm leading-relaxed text-gray-600">Fill in the application form, book a campus visit, and we'll guide you through the next steps.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="mx-auto max-w-7xl px-4 pb-14 sm:px-6 lg:px-8 lg:pb-20">
+      <div class="grid overflow-hidden rounded-3xl bg-gray-100 md:grid-cols-2">
+        <div class="flex flex-col justify-center p-7 sm:p-10 lg:p-14">
+          <h2 class="mb-3 text-3xl font-bold tracking-tight sm:text-4xl">Start selling with Square</h2>
+          <p class="mb-7 text-gray-600">Set up is fast and secure.</p>
+          <div class="flex flex-col gap-3 min-[420px]:flex-row">
+            <a href="#" class="rounded-xl bg-blue-700 px-5 py-3 text-center text-sm font-semibold text-white hover:bg-blue-800">Read more</a>
+            <a href="#" class="rounded-xl border border-blue-700 px-5 py-3 text-center text-sm font-semibold text-blue-700 hover:bg-blue-50">Contact sales</a>
+          </div>
+        </div>
+        <img class="h-64 w-full object-cover sm:h-80 md:h-full md:min-h-[340px]" src="./src/images/PD07458_-_CAEN_pricing_start_selling.jpg" alt="Start selling with Square">
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white">
+    <div class="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <div class="max-w-5xl space-y-4 text-[11px] leading-relaxed text-gray-300">
+        <p><sup>1</sup> Block, Inc. is a financial services company, not a bank. Banking services are provided by Square Financial Services, Inc., an affiliate of Square, Inc., and Sutton Bank; members FDIC.</p>
+        <p><sup>2</sup> All loans are issued by Square Financial Services, Inc., a Utah-Chartered Industrial Bank. Member FDIC. Actual fee depends upon payment card processing history, loan amount, and other eligibility factors. A minimum payment of 1/18th of the initial loan balance is required every 60 days and full loan repayment is required within 18 months. Loan eligibility is not guaranteed. All loans are subject to credit approval.</p>
+        <p><sup>3</sup> All credit sale plans are issued by Block, Inc. Not available to merchants in AL, DE, MS, MO, NH, and TN. Purchase amounts must be from $49 to $10,000. APR is 15%. Available plan lengths vary from 3-, 6-, 12-, and/or 24-month installments, depending on purchase amount. Sales tax, where applicable, will be due at checkout. All plans subject to credit approval and other factors.</p>
+        <p><sup>4</sup> Lower in-person processing rates are available for Plus and Premium tiers of Square point-of-sale plans.</p>
+        <p><sup>5</sup> Offer expires April 25, 2025 at 11:59 p.m. PST or while supplies last, whichever comes first. Offer for $100 off cost of one Square Register, $50 off cost of one Square Terminal, $25 off cost of one Square Stand, $25 off cost of one Square Kiosk, or $10 off cost of one Square Reader for contactless and chip excluding applicable taxes. Each code is limited to one redemption per New-to-Square Hardware account holder. Valid for Square customers located in the US only with a U.S. bank account. Offer not valid with guest checkout. Square reserves the right to modify, revoke or cancel the offer at any time. This offer cannot be combined with any other offer. Void where prohibited, not redeemable for cash, and non-transferable.</p>
+      </div>
+
+      <div class="mt-14 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">
+        <div>
+          <h3 class="mb-4 text-sm text-gray-400">Products</h3>
+          <ul class="space-y-3 text-[13px] text-gray-100">
+            <li><a href="#" class="hover:underline">Commerce</a></li><li><a href="#" class="hover:underline">Point of sale</a></li><li><a href="#" class="hover:underline">Payments</a></li><li><a href="#" class="hover:underline">Online</a></li><li><a href="#" class="hover:underline">Kiosk</a></li><li><a href="#" class="hover:underline">Invoices</a></li><li><a href="#" class="hover:underline">Customers</a></li><li><a href="#" class="hover:underline">Marketing</a></li><li><a href="#" class="hover:underline">Loyalty</a></li><li><a href="#" class="hover:underline">Customer Directory</a></li><li><a href="#" class="hover:underline">Banking</a></li><li><a href="#" class="hover:underline">Staff</a></li><li><a href="#" class="hover:underline">Payroll</a></li><li><a href="#" class="hover:underline">Advanced access</a></li><li><a href="#" class="hover:underline">Buy Now, Pay Later</a></li><li><a href="#" class="hover:underline">Hardware</a></li><li><a href="#" class="hover:underline">Business software &amp; solutions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-sm text-gray-400">Business Types</h3>
+          <ul class="space-y-3 text-[13px] text-gray-100">
+            <li><a href="#" class="hover:underline">Food &amp; Beverage</a></li><li><a href="#" class="hover:underline">Quick Service</a></li><li><a href="#" class="hover:underline">Full Service</a></li><li><a href="#" class="hover:underline">Fast Casual</a></li><li><a href="#" class="hover:underline">Bars &amp; Breweries</a></li><li><a href="#" class="hover:underline">Retail</a></li><li><a href="#" class="hover:underline">Beauty Salon</a></li><li><a href="#" class="hover:underline">Barbershop</a></li><li><a href="#" class="hover:underline">Hair Salon</a></li><li><a href="#" class="hover:underline">Nail Salon</a></li><li><a href="#" class="hover:underline">Day Spa</a></li><li><a href="#" class="hover:underline">Tattoo &amp; Piercing</a></li><li><a href="#" class="hover:underline">Med spa</a></li><li><a href="#" class="hover:underline">Fitness</a></li><li><a href="#" class="hover:underline">Professional Services</a></li><li><a href="#" class="hover:underline">Home &amp; Repair</a></li><li><a href="#" class="hover:underline">Large Businesses</a></li><li><a href="#" class="hover:underline">Franchises</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-sm text-gray-400">Resources</h3>
+          <ul class="space-y-3 text-[13px] text-gray-100">
+            <li><a href="#" class="hover:underline">Pricing</a></li><li><a href="#" class="hover:underline">Why Square?</a></li><li><a href="#" class="hover:underline">Testimonials</a></li><li><a href="#" class="hover:underline">The Bottom Line</a></li><li><a href="#" class="hover:underline">Sales</a></li><li><a href="#" class="hover:underline">Support</a></li><li><a href="#" class="hover:underline">Square Community</a></li><li><a href="#" class="hover:underline">Developer Platform</a></li><li><a href="#" class="hover:underline">Merchant Services</a></li><li><a href="#" class="hover:underline">Rent Hardware</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="mb-4 text-sm text-gray-400">Contact</h3>
+          <ul class="mb-8 space-y-4 text-[13px] text-gray-100">
+            <li>Customer support: <a href="tel:+18557006000" class="hover:underline">1 (855) 700-6000</a></li>
+            <li>Sales: <a href="tel:+18004701673" class="hover:underline">1 (800) 470-1673</a></li>
+          </ul>
+          <h3 class="mb-4 text-sm text-gray-400">Square</h3>
+          <ul class="space-y-4 text-[13px] text-gray-100">
+            <li><a href="#" class="hover:underline">About</a></li><li><a href="#" class="hover:underline">Press &amp; Media</a></li><li><a href="#" class="hover:underline">Careers</a></li><li><a href="#" class="hover:underline">Referrals</a></li><li><a href="#" class="hover:underline">Partners</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-8 border-gray-700">
+      <div class="flex flex-col gap-4 text-sm text-gray-300 sm:flex-row sm:items-center sm:justify-between">
+        <span><i class="bi bi-globe2 mr-2"></i>United States (English)</span>
+        <span>© 2025 Block, Inc.</span>
+      </div>
     </div>
-
-<div class="mt-8 flex justify-center">
-  <img 
-    class="rounded-2xl" 
-    src="./src/images/Screenshot 2026-11-21 224013.png" 
-    alt="Square hardware"
-  >
-</div>
-
-<div class="flex flex-row justify-evenly py-12 text-gray-600">
-  <button class="inline-flex items-center gap-2 rounded-full border border-neutral-400 px-6 py-3 text-sm font-medium text-gray-600 text-neutral-900 transition-colors ">
-    <span>See plans</span>
-    <svg xmlns="http://w3.org" width="14" height="14" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-    </svg>
-  </button>
-
-  <button class="inline-flex items-center gap-2 rounded-full border border-neutral-400 px-6 py-3 text-sm font-medium text-gray-600 text-neutral-900 transition-colors ">
-    <span>Explore all tools</span>
-    <svg xmlns="http://w3.org" width="14" height="14" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-    </svg>
-  </button>
-
-  <button class="inline-flex items-center gap-2 rounded-full border border-neutral-400 px-6 py-3 text-sm font-medium text-gray-600 text-neutral-900 transition-colors">
-    <span>Processing fees</span>
-    <svg xmlns="http://w3.org" width="14" height="14" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-    </svg>
-  </button>
-
-  <button class="inline-flex items-center gap-2 rounded-full border border-neutral-400 px-6 py-3 text-sm font-medium text-gray-600 text-neutral-900 transition-colors">
-    <span>By business type</span>
-    <svg xmlns="http://w3.org" width="14" height="14" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-    </svg>
-  </button>
-
-  <button class="inline-flex items-center gap-2 rounded-full border border-neutral-400 px-6 py-3 text-sm font-medium text-gray-600 text-neutral-900 transition-colors">
-    <span>Shop hardware</span>
-    <svg xmlns="http://w3.org" width="14" height="14" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
-    </svg>
-  </button>
-</div>
-
-
-
-
-</div>
-  </section>
-
-
-
-
-      <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">
-          Plans for every stage
-        </h2>
-
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
-          <div
-            class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8"
-          >
-            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">
-              Free
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Sell in person, online, over the phone, or out in the field. No
-              setup fees or monthly fees - only pay when you take a payment.
-            </p>
-            <div class="mt-auto">
-              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-                $0<span class="text-2xl md:text-3xl">/mo.</span>
-              </p>
-              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-              <button
-                class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700"
-              >
-                Get started free
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8"
-          >
-            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">
-              Plus
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Get advanced features designed specifically for restaurants,
-              retailers, or appointment-based businesses. Upgrade when you want
-              to, cancel anytime.
-            </p>
-            <div class="mt-auto">
-              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-                $29+<span class="text-2xl md:text-3xl">/mo.</span>
-              </p>
-              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-              <button
-                class="w-full rounded-lg bg-[#006aff] py-3 text-sm font-medium text-white transition-colors hover:bg-blue-700"
-              >
-                See packages below
-              </button>
-            </div>
-          </div>
-
-          <div
-            class="flex flex-col rounded-3xl border border-gray-200 bg-white p-6 lg:p-8"
-          >
-            <h3 class="mb-3 text-2xl font-normal text-gray-900 md:text-3xl">
-              Premium
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Build a bespoke plan that meets the complexity of your operations.
-              Custom processing rates may be available pending eligibility.
-            </p>
-            <div class="mt-auto">
-              <p class="mb-1 text-4xl font-normal text-gray-900 md:text-5xl">
-                Custom
-              </p>
-              <p class="mb-6 text-sm text-gray-500">+ processing fees</p>
-              <button
-                class="w-full rounded-lg border border-[#006aff] bg-white py-3 text-sm font-medium text-[#006aff] transition-colors hover:bg-blue-50"
-              >
-                Contact Sales
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <h2 class="mb-8 text-3xl font-normal text-gray-900 md:text-4xl">
-          Included with every Square account:
-        </h2>
-        <div
-          class="grid grid-cols-1 gap-6 px-6 md:grid-cols-2 lg:grid-cols-3 lg:px-8"
-        >
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Transfers as soon as the next business day</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Account takeover protection</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Fast online signup</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>End-to-end encrypted payments</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Live phone support</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Free Square Point of Sale app</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Active fraud prevention</span>
-          </p>
-          <p class="flex items-start gap-2 text-[15px] text-gray-800">
-            <i class="bi bi-check2 text-blue-700 mt-0.5"></i>
-            <span>Dispute management</span>
-          </p>
-        </div>
-      </section>
-      <section id="taha" class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <h2 class="mb-6 text-2xl font-normal md:text-4xl">
-          Tools to mix and match
-        </h2>
-
-        <div class="mb-8 flex flex-wrap gap-2">
-          <button
-            class="rounded-full bg-[#006aff] px-4 py-1.5 text-sm font-medium text-white transition-colors hover:bg-blue-700"
-          >
-            All
-          </button>
-          <button
-            class="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-50"
-          >
-            Free
-          </button>
-          <button
-            class="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-50"
-          >
-            Commerce
-          </button>
-          <button
-            class="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-50"
-          >
-            Customers
-          </button>
-          <button
-            class="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-50"
-          >
-            Banking
-          </button>
-          <button
-            class="rounded-full border border-gray-200 bg-white px-4 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-50"
-          >
-            Staff
-          </button>
-        </div>
-
-        <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Square POS &rarr;
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Get set up to sell in person, online, over the phone, or out in
-              the field — no training required.
-            </p>
-            <p class="mt-auto text-sm font-medium text-gray-600">
-              Starting at $0/mo.
-            </p>
-          </div>
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Payroll &rarr;
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Track hours, pay employees faster, and automate your tax filings
-              all in one place to streamline payroll.
-            </p>
-            <p class="mt-auto text-sm font-medium text-gray-600">
-              Starting at $35/mo. + $6 monthly fee per person paid
-            </p>
-          </div>
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Online store &rarr;
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Easily sell, take bookings, and show off your services online.
-              Plus, reach customers on Instagram and Facebook.
-            </p>
-            <p class="mt-auto text-sm font-medium text-gray-600">
-              Starting at $0/mo.
-            </p>
-          </div>
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Invoices &rarr;
-            </h3>
-            <p class="flex-1 text-[15px] leading-relaxed text-gray-600">
-              Send digital invoices and estimates, accept payments, send
-              reminders, and track which invoices are paid.
-            </p>
-          </div>
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Email Marketing &rarr;
-            </h3>
-            <p class="flex-1 text-[15px] leading-relaxed text-gray-600">
-              Stay connected to customers with POS integrated, automated email
-              marketing.
-            </p>
-          </div>
-          <div
-            class="flex flex-col rounded-2xl border border-gray-200 bg-white p-6 shadow-sm"
-          >
-            <h3
-              class="mb-3 flex items-center gap-1 text-xl font-semibold text-[#006aff]"
-            >
-              Text Message Marketing &rarr;
-            </h3>
-            <p class="mb-8 flex-1 text-[15px] leading-relaxed text-gray-600">
-              Text customers directly about sales and arrivals, and send coupons
-              and more so you stay top of mind.
-            </p>
-            <p class="mt-auto text-sm font-medium text-gray-600">
-              Starting at $10/mo. + messaging
-            </p>
-          </div>
-        </div>
-
-        <div class="mt-12 flex items-center justify-center">
-          <div class="h-px flex-1 bg-gray-200"></div>
-          <button
-            class="mx-6 inline-flex items-center justify-center gap-1.5 text-[15px] font-medium text-[#006aff] transition-colors hover:text-blue-700"
-          >
-            <i class="bi bi-plus"></i> Expand all tools
-          </button>
-          <div class="h-px flex-1 bg-gray-200"></div>
-        </div>
-      </section>
-
-      <section id="taha" class="bg-[#E3F2F9] px-4 py-16 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-7xl">
-          <h2 class="mb-10 text-3xl font-normal text-gray-900 md:text-4xl">
-            Processing fees
-          </h2>
-
-          <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-            <div class="flex flex-col">
-              <h3 class="mb-3 text-lg font-normal text-gray-900">In person</h3>
-              <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">
-                When a customer taps, dips, or swipes their card in person,
-                Visa, Mastercard, Discover, and American Express all cost the
-                same rate.
-              </p>
-              <p class="text-[15px] font-semibold text-gray-900">
-                2.6% + 15¢ per transaction<sup>*</sup>
-              </p>
-            </div>
-
-            <div class="flex flex-col">
-              <h3 class="mb-3 text-lg font-normal text-gray-900">Online</h3>
-              <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">
-                When a customer makes a purchase through your Online Store or
-                eCommerce API.
-              </p>
-              <p class="text-[15px] font-semibold text-gray-900">
-                2.9% + 30¢ per transaction
-              </p>
-            </div>
-
-            <div class="flex flex-col">
-              <h3 class="mb-3 text-lg font-normal text-gray-900">
-                Manually entered
-              </h3>
-              <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">
-                When you manually key in your customers card details or use a
-                card on file.
-              </p>
-              <p class="text-[15px] font-semibold text-gray-900">
-                3.5% + 15¢ per transaction
-              </p>
-            </div>
-
-            <div class="flex flex-col">
-              <h3 class="mb-3 text-lg font-normal text-gray-900">Invoices</h3>
-              <p class="mb-4 flex-1 text-[15px] leading-relaxed text-gray-700">
-                Let customers pay invoices online, in person, or from their
-                phone with a credit card, Apple Pay, Google Pay, or ACH bank
-                transfer.
-              </p>
-              <p class="text-[15px] font-semibold text-gray-900">
-                3.3% + 30¢ per transaction
-              </p>
-            </div>
-          </div>
-
-          <div class="mt-12">
-            <a
-              href="#"
-              class="inline-flex items-center text-[15px] font-semibold text-[#006aff] hover:underline"
-            >
-              How our rates work &rarr;
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <section id="mohammed" class="px-37">
-        <h2 class="mb-3 py-5 text-3xl font-normal">Plans by business type</h2>
-        <div class="flex flex-wrap gap-6">
-          <div
-            class="bg-neutral-primary-soft block max-w-sm rounded-2xl shadow-xs"
-          >
-            <img
-              class="rounded-2xl pb-2"
-              src="./src/images/PD04508_-_M_CAEN_business_type_tiles_restaurants.webp"
-              alt=""
-            />
-            <h2 class="mb-3 text-3xl font-normal">Restaurants</h2>
-            <p class="mb-4 text-[15px] leading-relaxed">
-              Run your restaurant more efficiently. Use menus and table
-              management for front of house, and kitchen displays and delivery
-              for back of house.
-            </p>
-            <ul class="mb-6 list-disc space-y-3.5 pl-5 text-[15px]">
-              <li>Advanced POS features</li>
-              <li>Square KDS</li>
-              <li>Square Kiosk</li>
-            </ul>
-            <a href="#" class="text-[15px] text-[#006aff] hover:underline"
-              >See plans &rarr;</a
-            >
-          </div>
-
-          <div
-            class="bg-neutral-primary-soft block max-w-sm rounded-2xl shadow-xs"
-          >
-            <img
-              class="rounded-2xl pb-2"
-              src="./src/images/PD04508_-_M_CAEN_business_type_tiles_retail.webp"
-              alt=""
-            />
-            <h2 class="mb-3 text-3xl font-normal">Retail</h2>
-            <p class="mb-4 text-[15px] leading-relaxed">
-              All the retail tools you need for selling online and in-store,
-              like inventory management, returns and exchanges, and reports.
-            </p>
-            <ul class="mb-6 list-disc space-y-3.5 pl-5 text-[15px]">
-              <li>Advanced inventory tools</li>
-              <li>Advanced retail reports</li>
-              <li>Square Team Management</li>
-            </ul>
-            <a href="#" class="text-[15px] text-[#006aff] hover:underline"
-              >See plans &rarr;</a
-            >
-          </div>
-
-          <div
-            class="bg-neutral-primary-soft block max-w-sm rounded-2xl shadow-xs"
-          >
-            <img
-              class="rounded-2xl pb-2"
-              src="./src/images/PD04508_-_M_CAEN_business_type_tiles_appointments.webp"
-              alt=""
-            />
-            <h2 class="mb-3 text-3xl font-normal">Appointments</h2>
-            <p class="mb-4 text-[15px] leading-relaxed">
-              Stay a step ahead of schedule — whether you run a salon or a
-              construction business — with easy online booking, automatic
-              appointment reminders, and staff management tools.
-            </p>
-            <ul class="mb-6 list-disc space-y-3.5 pl-5 text-[15px]">
-              <li>Customizable online booking site</li>
-              <li>Automated appointment reminders</li>
-              <li>Square Team Management</li>
-            </ul>
-            <a href="#" class="text-[15px] text-[#006aff] hover:underline"
-              >See plans &rarr;</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section id="mohammed" class="px-37 py-15">
-        <h2 class="mb-3 text-3xl font-normal">Flexible hardware solutions</h2>
-        <a href="#" class="text-[15px] text-[#006aff] hover:underline"
-          >Explore all hardware and accessories &rarr;</a
-        >
-
-        <div class="flex flex-wrap gap-6 pt-8">
-          <div
-            class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs"
-          >
-            <a href="#">
-              <img
-                class="rounded-base object-contain"
-                src="./src/images/PD06527_-_FRFR_register.webp"
-                alt=""
-              />
-            </a>
-            <a
-              href="#"
-              class="text-xl font-bold text-[#006aff] hover:underline mt-2 block"
-              >Square Register &rarr;</a
-            >
-            <div class="rounded-sm text-gray-600 text-[15px]">
-              $799 or $39/mo.<sup>3</sup> over 24 months
-            </div>
-          </div>
-
-          <div
-            class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs"
-          >
-            <a href="#">
-              <img
-                class="rounded-base h-[290px] object-contain"
-                src="./src/images/Stand_dual_2026_960x960.webp"
-                alt=""
-              />
-            </a>
-            <a
-              href="#"
-              class="text-xl font-bold text-[#006aff] hover:underline mt-2 block"
-              >Square Stand &rarr;</a
-            >
-            <div class="rounded-sm text-gray-600 text-[15px]">
-              $149 or $14/mo.<sup>3</sup> over 12 months
-            </div>
-          </div>
-
-          <div
-            class="bg-gray-100 block max-w-sm h-full p-6 rounded-2xl shadow-xs"
-          >
-            <a href="#">
-              <img
-                class="rounded-base object-contain"
-                src="./src/images/PD06527_-_FRFR_terminal.webp"
-                alt=""
-              />
-            </a>
-            <a
-              href="#"
-              class="text-xl font-bold text-[#006aff] hover:underline mt-2 block"
-              >Square Terminal &rarr;</a
-            >
-            <div class="rounded-sm text-gray-600 text-[15px]">
-              $299 or $27/mo.<sup>3</sup> over 12 months
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="mohammed" class="px-37">
-        <div class="flex justify-between">
-          <h2 class="mb-3 text-3xl font-normal">FAQ</h2>
-          <div class="">
-            <details open class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                What are the school hours at Little Learners Academy?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                Our school hours are from 8:00 AM to 3:00 PM, Monday to Friday.
-                We also offer extended care options for parents who need early
-                drop-off or late pick-up.
-              </p>
-            </details>
-            <details class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                How do you handle food allergies and dietary restrictions?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                Share your child's needs at enrollment and our team will plan
-                every meal and snack around them.
-              </p>
-            </details>
-            <details class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                Is there a uniform policy for students?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                Yes, students wear a simple school uniform. Details are shared
-                during admission.
-              </p>
-            </details>
-            <details class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                What is the teacher-to-student ratio at Little Learners
-                Academy?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                We keep classes small so every child gets personal attention.
-              </p>
-            </details>
-            <details class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                How do you handle discipline and behavior management?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                We use positive guidance, clear routines, and open communication
-                with parents.
-              </p>
-            </details>
-            <details class="brut group py-3 border-b border-gray-300">
-              <summary
-                class="flex justify-between items-center cursor-pointer list-none text-sm font-semibold"
-              >
-                How do I apply for admission to Little Learners Academy?<span
-                  class="ml-3 w-6 h-6 shrink-0 grid place-items-center border border-black rounded bg-white group-open:rotate-45 transition-transform text-blue-700 font-bold"
-                  >+</span
-                >
-              </summary>
-              <p class="text-xs mt-4 pt-4 border-t border-black">
-                Fill in the application form, book a campus visit, and we'll
-                guide you through the next steps.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
-      <section id="mohammed" class="px-37">
-        <div
-          class="flex gap-20 flex-col items-start bg-neutral-primary-soft p-6 rounded-base shadow-xs md:flex-row lg:w-full"
-        >
-          <div class="flex flex-col justify-between md:p-4 leading-normal">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-heading">
-              Start selling with Square
-            </h5>
-            <p class="mb-6 text-body">Set up is fast and secure.</p>
-            <div class="flex gap-2">
-              <button
-                type="button"
-                class="inline-flex items-center w-auto text-body bg-blue-700 box-border text-white shadow-xs font-medium rounded-xl text-sm px-4 py-2.5"
-              >
-                Read more
-              </button>
-              <button
-                type="button"
-                class="inline-flex items-center w-auto text-body bg-neutral-secondary-medium box-border border border-blue-700 text-blue-700 shadow-xs font-medium rounded-xl text-sm px-4 py-2.5"
-              >
-                Read more
-              </button>
-            </div>
-          </div>
-          <div class="w-200">
-            <img
-              class="object-cover w-full rounded-xl h-64"
-              src="./src/images/PD07458_-_CAEN_pricing_start_selling.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-    </main>
- <footer id="ferdawss" class="bg-black flex justify-center items-center">
-
-
-        <div class=" w-full max-w-screen-xl text-white p-4 py-6 lg:py-8">
-
-            <div class=" max-w-5xl space-y-8 text-[11px] leading-relaxed">
-
-                <p><sup>1</sup> Block, Inc. is a financial services company, not a bank. Banking services are provided
-                    by Square Financial Services, Inc., an affiliate of Square, Inc., and Sutton Bank; members FDIC.</p>
-
-                <p><sup>2</sup> All loans are issued by Square Financial Services, Inc., a Utah-Chartered Industrial
-                    Bank. Member FDIC. Actual fee depends upon payment card processing history, loan amount, and other
-                    eligibility factors. A minimum payment of 1/18th of the initial loan balance is required every 60
-                    days and full loan repayment is required within 18 months. Loan eligibility is not guaranteed. All
-                    loans are subject to credit approval.</p>
-
-                <p><sup>3</sup> All credit sale plans are issued by Block, Inc. Not available to merchants in AL, DE,
-                    MS, MO, NH, and TN. Purchase amounts must be from $49 to $10,000. APR is 15%. Available plan lengths
-                    vary from 3-, 6-, 12-, and/or 24-month installments, depending on purchase amount. Sales tax, where
-                    applicable, will be due at checkout. All plans subject to credit approval and other factors.</p>
-
-                <p><sup>4</sup> Lower in-person processing rates are available for Plus and Premium tiers of Square
-                    point-of-sale plans.</p>
-
-                <p><sup>5</sup> Offer expires April 25, 2025 at 11:59 p.m. PST or while supplies last, whichever comes
-                    first. Offer for $100 off cost of one Square Register, $50 off cost of one Square Terminal, $25 off
-                    cost of one Square Stand, $25 off cost of one Square Kiosk, or $10 off cost of one Square Reader for
-                    contactless and chip excluding applicable taxes. Each code is limited to one redemption per
-                    New-to-Square Hardware account holder. Valid for Square customers located in the US only with a U.S.
-                    bank account. Offer not valid with guest checkout. Square reserves the right to modify, revoke or
-                    cancel the offer at any time. This offer cannot be combined with any other offer. Void where
-                    prohibited, not redeemable for cash, and non-transferable.</p>
-
-            </div>
-            <div class="flex flex-wrap pt-20 justify-between gap-12 sm:gap-6 md:gap-12 lg:gap-24 ">
-                <div>
-                    <h3 class="mb-4 text-[15px] font-normal text-[#8a8a8a]">Products</h3>
-                    <ul class="space-y-3 text-white text-[13px]">
-                        <li><a href="#" class="hover:underline">Commerce</a></li>
-                        <li><a href="#" class="hover:underline">Point of sale</a></li>
-                        <li><a href="#" class="hover:underline">Payments</a></li>
-                        <li><a href="#" class="hover:underline">Online</a></li>
-                        <li><a href="#" class="hover:underline">Kiosk</a></li>
-                        <li><a href="#" class="hover:underline">Invoices</a></li>
-                        <li><a href="#" class="hover:underline">Customers</a></li>
-                        <li><a href="#" class="hover:underline">Marketing</a></li>
-                        <li><a href="#" class="hover:underline">Loyalty</a></li>
-                        <li><a href="#" class="hover:underline">Customer Directory</a></li>
-                        <li><a href="#" class="hover:underline">Banking</a></li>
-                        <li><a href="#" class="hover:underline">Staff</a></li>
-                        <li><a href="#" class="hover:underline">Payroll</a></li>
-                        <li><a href="#" class="hover:underline">Advanced access</a></li>
-                        <li><a href="#" class="hover:underline">Buy Now, Pay Later</a></li>
-                        <li><a href="#" class="hover:underline">Hardware</a></li>
-                        <li><a href="#" class="hover:underline">Business software & solutions</a></li>
-                    </ul>
-
-                </div>
-                <div>
-                    <h3 class="mb-4 text-[15px] font-normal text-[#8a8a8a]">Business Types</h3>
-                    <ul class="space-y-3 text-white text-[13px]">
-                        <li><a href="#" class="hover:underline">Food & Beverage</a></li>
-                        <li><a href="#" class="hover:underline">Quick Service</a></li>
-                        <li><a href="#" class="hover:underline">Full Service</a></li>
-                        <li><a href="#" class="hover:underline">Fast Casual</a></li>
-                        <li><a href="#" class="hover:underline">Bars & Breweries</a></li>
-                        <li><a href="#" class="hover:underline">Retail</a></li>
-                        <li><a href="#" class="hover:underline">Beauty Salon</a></li>
-                        <li><a href="#" class="hover:underline">Barbershop</a></li>
-                        <li><a href="#" class="hover:underline">Hair Salon</a></li>
-                        <li><a href="#" class="hover:underline">Nail Salon</a></li>
-                        <li><a href="#" class="hover:underline">Day Spa</a></li>
-                        <li><a href="#" class="hover:underline">Tattoo & Piercing</a></li>
-                        <li><a href="#" class="hover:underline">Med spa</a></li>
-                        <li><a href="#" class="hover:underline">Fitness</a></li>
-                        <li><a href="#" class="hover:underline">Professional Services</a></li>
-                        <li><a href="#" class="hover:underline">Home & Repair</a></li>
-                        <li><a href="#" class="hover:underline">Large Businesses</a></li>
-                        <li><a href="#" class="hover:underline">Franchises</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="mb-4 text-[15px] font-normal text-[#8a8a8a]">Resources</h3>
-                    <ul class="space-y-3 text-white text-[13px]">
-                        <li><a href="#" class="hover:underline">Pricing</a></li>
-                        <li><a href="#" class="hover:underline">Why Square?</a></li>
-                        <li><a href="#" class="hover:underline">Testimonials</a></li>
-                        <li><a href="#" class="hover:underline">The Bottom Line</a></li>
-                        <li><a href="#" class="hover:underline">Sales</a></li>
-                        <li><a href="#" class="hover:underline">Support</a></li>
-                        <li><a href="#" class="hover:underline">Square Community</a></li>
-                        <li><a href="#" class="hover:underline">Developer Platform</a></li>
-                        <li><a href="#" class="hover:underline">Merchant Services</a></li>
-                        <li><a href="#" class="hover:underline">Rent Hardware</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <div class="max-w-xs">
-
-                        <h3 class="mb-4 text-[15px] font-normal text-[#8a8a8a]">Contact</h3>
-                        <ul class="mb-8 space-y-4 text-white text-[13px]">
-                            <li>Customer support: <a href="tel:+18557006000" class="hover:underline">1 (855)
-                                    700-6000</a></li>
-                            <li>Sales: <a href="tel:+18004701673" class="hover:underline">1 (800) 470-1673</a></li>
-                        </ul>
-
-                        <h3 class="mb-4 text-[15px] font-normal text-[#8a8a8a]">Square</h3>
-                        <ul class="space-y-4 text-white text-[13px]">
-                            <li><a href="#" class="hover:underline">About</a></li>
-                            <li><a href="#" class="hover:underline">Press & Media</a></li>
-                            <li><a href="#" class="hover:underline">Careers</a></li>
-                            <li><a href="#" class="hover:underline">Referrals</a></li>
-                            <li><a href="#" class="hover:underline">Partners</a></li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-            <hr class="my-6 border-default sm:mx-auto lg:my-8" />
-            <div class="flex gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                        fill="#ffffff" viewBox="0 0 256 256">
-                        <path
-                            d="M128,24h0A104,104,0,1,0,232,128,104.12,104.12,0,0,0,128,24Zm88,104a87.61,87.61,0,0,1-3.33,24H174.16a157.44,157.44,0,0,0,0-48h38.51A87.61,87.61,0,0,1,216,128ZM102,168H154a115.11,115.11,0,0,1-26,45A115.27,115.27,0,0,1,102,168Zm-3.9-16a140.84,140.84,0,0,1,0-48h59.88a140.84,140.84,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.84a157.44,157.44,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154,88H102a115.11,115.11,0,0,1,26-45A115.27,115.27,0,0,1,154,88Zm52.33,0H170.71a135.28,135.28,0,0,0-22.3-45.6A88.29,88.29,0,0,1,206.37,88ZM107.59,42.4A135.28,135.28,0,0,0,85.29,88H49.63A88.29,88.29,0,0,1,107.59,42.4ZM49.63,168H85.29a135.28,135.28,0,0,0,22.3,45.6A88.29,88.29,0,0,1,49.63,168Zm98.78,45.6a135.28,135.28,0,0,0,22.3-45.6h35.66A88.29,88.29,0,0,1,148.41,213.6Z">
-                        </path>
-                    </svg>
-                <p class="text-sm text-body "> United States (English)
-                </p>
-
-            </div>
-            <hr class="my-6 border-default sm:mx-auto lg:my-8" />
-            <span class="text-sm text-body sm:text-center">Â© 2025 Block, inc.</span>
-        </div>
-
-
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
-  </body>
+  </footer>
+</body>
 </html>
